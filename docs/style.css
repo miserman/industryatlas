@@ -1,0 +1,12 @@
+.navbar-brand {
+  font-family: Monospace;
+}
+.container-row {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.side-panel {
+  width: 435px;
+  flex-grow: 0;
+}
