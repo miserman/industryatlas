@@ -132,6 +132,7 @@ page_section(
     input_combobox(
       "Sector",
       options = "variables",
+      default = 10,
       id = "selected_variable", note = paste(
         "Determines which sector is shown on the plot's y-axis, in the rank table,",
         "and info fields, and used to color map polygons and plot elements."
