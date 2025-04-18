@@ -185,7 +185,7 @@ page_section(
       options = list(
         attributionControl = FALSE,
         scrollWheelZoom = FALSE,
-        center = c(38, -96),
+        center = c(37.99616267972814, -95.84472656250001),
         zoom = 5,
         height = "720px",
         zoomAnimation = "settings.map_zoom_animation",

@@ -177,7 +177,7 @@
       "options": {
         "attributionControl": false,
         "scrollWheelZoom": false,
-        "center": [38, -96],
+        "center": [37.9962, -95.8447],
         "zoom": 5,
         "height": "720px",
         "zoomAnimation": "settings.map_zoom_animation",
