@@ -45,7 +45,35 @@
     }
   },
   "info": {
-    "info2": {
+    "variable_info_pane": {
+      "title": "variables.short_name",
+      "dataview": "primary_view",
+      "variable_info": true
+    },
+    "info6": {
+      "body": [
+        {
+          "name": "",
+          "value": "summary",
+          "style": "table"
+        }
+      ],
+      "dataview": "primary_view",
+      "variable_info": true
+    },
+    "info7": {
+      "title": "Filters",
+      "body": [
+        {
+          "name": "",
+          "value": "filter",
+          "style": "table"
+        }
+      ],
+      "dataview": "primary_view",
+      "variable_info": true
+    },
+    "info8": {
       "title": "features.name",
       "body": [
         {
@@ -59,37 +87,8 @@
           "style": "table"
         }
       ],
-      "floating": true,
       "dataview": "primary_view",
       "subto": ["main_map", "main_plot", "rank_table", "main_legend"]
-    },
-    "variable_info_pane": {
-      "title": "variables.short_name",
-      "dataview": "primary_view",
-      "variable_info": true
-    },
-    "info5": {
-      "body": [
-        {
-          "name": "",
-          "value": "summary",
-          "style": "table"
-        }
-      ],
-      "dataview": "primary_view",
-      "variable_info": true
-    },
-    "info6": {
-      "title": "Filters",
-      "body": [
-        {
-          "name": "",
-          "value": "filter",
-          "style": "table"
-        }
-      ],
-      "dataview": "primary_view",
-      "variable_info": true
     }
   },
   "button": {
@@ -205,7 +204,7 @@
     "bootstrap": {
       "name": "Bootstrap",
       "url": "https://getbootstrap.com",
-      "version": "5.3.5"
+      "version": "5.3.8"
     },
     "colorbrewer": {
       "name": "ColorBrewer",
@@ -235,12 +234,12 @@
     "datatables": {
       "name": "DataTables",
       "url": "https://datatables.net",
-      "version": "2.2.2"
+      "version": "2.3.7"
     },
     "plotly": {
       "name": "Plotly",
       "url": "https://plotly.com/javascript/getting-started",
-      "version": "3.0.1"
+      "version": "3.4.0"
     }
   },
   "aggregated": true,

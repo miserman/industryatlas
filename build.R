@@ -56,7 +56,8 @@ aggregated$region_type = "county"
 tallfile <- paste0(basedir, "county.csv.xz")
 vroom::vroom_write(aggregated, tallfile, ",")
 data_reformat_sdad(
-  tallfile, outdir,
+  tallfile,
+  outdir,
   value_name = "sector",
   metadata = map
 )
@@ -96,7 +97,9 @@ data_add(
         statement = "There were {value} people employed in the {variant} sector in {region_name} in {data.time}.",
         variants = list(
           "11" = list(default = "Agriculture, Forestry, Fishing and Hunting"),
-          "21" = list(default = "Mining, Quarrying, and Oil and Gas Extraction"),
+          "21" = list(
+            default = "Mining, Quarrying, and Oil and Gas Extraction"
+          ),
           "22" = list(default = "Utilities"),
           "23" = list(default = "Construction"),
           "31" = list(default = "Manufacturing"),
@@ -106,9 +109,13 @@ data_add(
           "51" = list(default = "Information"),
           "52" = list(default = "Finance and Insurance"),
           "53" = list(default = "Real Estate and Rental and Leasing"),
-          "54" = list(default = "Professional, Scientific, and Technical Services"),
+          "54" = list(
+            default = "Professional, Scientific, and Technical Services"
+          ),
           "55" = list(default = "Management of Companies and Enterprises"),
-          "56" = list(default = "Administrative and Support and Waste Management and Remediation Services"),
+          "56" = list(
+            default = "Administrative and Support and Waste Management and Remediation Services"
+          ),
           "61" = list(default = "Educational Services"),
           "62" = list(default = "Health Care and Social Assistance"),
           "71" = list(default = "Arts, Entertainment, and Recreation"),
@@ -144,6 +151,12 @@ data_add(
   ),
   dir = outdir
 )
-site_build(".", version = "dev", serve = TRUE, options = list(
-  theme_dark = TRUE, polygon_outline = 1
-))
+site_build(
+  ".",
+  version = "dev",
+  serve = TRUE,
+  options = list(
+    theme_dark = TRUE,
+    polygon_outline = 1
+  )
+)

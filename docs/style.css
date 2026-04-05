@@ -10,3 +10,6 @@
   width: 435px;
   flex-grow: 0;
 }
+.side-panel > div {
+  margin-top: 1em;
+}
