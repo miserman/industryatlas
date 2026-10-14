@@ -264,17 +264,17 @@ page_section(
       ),
       tiles = list(
         light = list(
-          url = "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+          url = "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
         ),
         dark = list(
-          url = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          url = "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
         )
       ),
       attribution = list(
         list(
-          name = "CARTO",
-          url = "https://carto.com/attributions",
-          description = "Map tiles by CARTO"
+          name = "Stadia Maps",
+          url = "https://www.stadiamaps.com",
+          description = "Map tiles by Stadia Maps"
         ),
         list(
           name = "OpenStreetMap",
