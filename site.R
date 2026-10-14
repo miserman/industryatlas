@@ -262,25 +262,8 @@ page_section(
         zoomAnimation = "settings.map_zoom_animation",
         setView = FALSE
       ),
-      tiles = list(
-        light = list(
-          url = "https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png"
-        ),
-        dark = list(
-          url = "https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
-        )
-      ),
-      attribution = list(
-        list(
-          name = "Stadia Maps",
-          url = "https://www.stadiamaps.com",
-          description = "Map tiles by Stadia Maps"
-        ),
-        list(
-          name = "OpenStreetMap",
-          url = "https://www.openstreetmap.org/copyright"
-        )
-      )
+      tiles = NULL,
+      attribution = NULL
     )
   )
 )
